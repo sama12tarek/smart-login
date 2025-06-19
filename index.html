@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container vh-100">
+  <div class="card d-flex flex-column justify-content-center align-items-center py-4">
+    <h1 class="text-info ">Smart Login System</h1>
+    <input type="email" class="form-control my-4 w-75" placeholder="Enter your email" id="emailData">
+    <div class="emailContent d-none">
+      <h3>"should have @gmail.com"</h3>
+    </div>
+    <input type="password" class="form-control my-4 w-75" placeholder="Enter your password" id="passwordData">
+<div class="passwordContent d-none">
+  <h3>"password should be from to 6"</h3>
+</div>
+    <button class="btn btn-info login bg-transparent  w-75" type="button">Login</button>
+       <div class="end d-flex justify-content-center align-items-center my-3">
+        <h4>Don’t have an account?</h4>
+        
+          
+<a class="d-inline-block text-light signUp" id="signUpLink">Sign Up</a>
+        
+  
+       </div>
+       <div id="userDisplay"></div>
+
+  </div>
+</div>
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

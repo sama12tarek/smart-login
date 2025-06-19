@@ -1,0 +1,26 @@
+.container,.card{
+  background-color: #24353F;
+}
+.card h1{
+  font-weight:500;
+font-style:normal;
+font-variant:normal;
+text-transform:
+none;
+text-decoration:
+none solid rgb(23, 162, 184);
+text-align:
+center;
+text-indent:
+0px;
+}
+.login.btn-info:hover {
+  background-color: #17A2B8 !important;
+}
+
+.card{
+  box-shadow: rgb(0,0,0,0,5);
+  width: 70%;
+  display: inline-block;
+  margin: auto;
+}
